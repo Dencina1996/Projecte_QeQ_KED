@@ -1,0 +1,5 @@
+$Caracteristiques = 
+	array(	'Ulleres' => array('Si','No'), 
+			'Cabell' => array('Ros','Moreno','Castany'),
+			'Sexe' => array('Home','Dona')
+		);

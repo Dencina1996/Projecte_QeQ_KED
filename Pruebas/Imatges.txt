@@ -1,0 +1,13 @@
+$David = 
+	array(	'Ulleres' => 'No',
+			'Cabell' => 'Moreno',
+			'Sexe' => 'Molt',
+			'Img_Src' => 'Images/David.jpg'
+		);
+$David = 
+	array(	'Ulleres' => 'No',
+			'Cabell' => 'Moreno',
+			'Sexe' => 'Molt',
+			'Img_Src' => 'Images/David.jpg'
+		);
+		
