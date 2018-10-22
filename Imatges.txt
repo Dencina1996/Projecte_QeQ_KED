@@ -1,4 +1,4 @@
-User_1.jpg: Ulleres No, Cabell Moreno, Sexe Dona	
+User_1.jpg: Ulleres No, Cabell Moreno, Sexe Dona
 User_2.jpg: Ulleres Si, Cabell Castany, Sexe Home
 User_3.jpg: Ulleres Si, Cabell Moreno, Sexe Dona
 User_4.jpg: Ulleres Si, Cabell Moreno, Sexe Home

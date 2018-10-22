@@ -32,6 +32,7 @@
 		array_push($Array, $Clean3);
 		}
 		
+		print_r($Array);
 		print_r($Array[10]);
 
 		
@@ -52,27 +53,33 @@
 	print_r($ArraySexe);
 	echo "<br>";
 
-	$ImagenesUtilizadas = [];
-	//for ($i=0;$i<=11;$i++) {
-	echo "<table>";
-		$y=0;
-		for ($i=0; $i < 3; $i++) {
-        	echo "<tr>";
-        	for ($x=0; $x < 4; $x++) {
+	print_r($Array[0][0]);
 
-         		$RandomTablero = array_rand($ArrayImatges);
-				if(in_array($RandomTablero, $ImagenesUtilizadas)){
-            		$x-=1;
-   				}else{
-   					echo "<td>";
-   					echo "<img src='Images/ArrayImatges' width='150' height='150'>";
-   					$y+=1;
-   				}
-				echo "</td>";
-    		}
-    		echo "</tr>";
-		}
+
+
+	for ($i=0;$i<=11;$i++) {
+	echo "<table>";
+		echo "<tr>";
+   			echo "<td>";
+
+   				echo '<img src="Images/'.$Array[$i][0].'" ulleres="'.$Array[$i][2].'" cabell="'.$Array[$i][4].'" 
+   				sexe="'.$Array[$i][6].'" width="150" height="150">';
+   				echo "<p>".$Array[$i][2]."</p>";
+   				echo "<p>".$Array[$i][4]."</p>";
+   				echo "<p>".$Array[$i][6]."</p>";
+			echo "</td>";
+    	echo "</tr>";
     echo "</table>";
+	}
+    
+
+
+
+
+
+
+
+
 	?>
 </body>
 </html>
