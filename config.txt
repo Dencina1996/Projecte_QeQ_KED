@@ -1,0 +1,3 @@
+ulleres : ¿Lleva gafas? si no
+cabell : ¿Es rubio? ros ¿Es moreno? moreno ¿Es castaño? castany
+sexe : ¿Es mujer? dona ¿Es hombre? home
